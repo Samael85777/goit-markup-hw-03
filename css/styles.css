@@ -29,6 +29,7 @@ ul,
 ol {
   margin: 0;
   padding-left: 0;
+  list-style: none;
 }
 
 /* Header */
@@ -120,13 +121,15 @@ ol {
   letter-spacing: 0.02em;
   margin-bottom: 48px;
   text-align: center;
-  /* display: inline-block; */
-  /* width: 492px; */
+  width: 492px;
+  display: block;
 }
 
 /* Button */
 
 .button-section-hero {
+  display: block;
+  justify-content: center;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.18;
@@ -167,6 +170,15 @@ ol {
   overflow: hidden;
 }
 
+.advantages-list {
+  display: flex;
+}
+
+.advantages-list-item {
+  width: 264px;
+  margin: 0 24px 0 0;
+}
+
 .advantages-list-item-title {
   font-weight: 700;
   font-size: 20px;
@@ -183,7 +195,7 @@ ol {
 /* section work */
 
 .work {
-  padding-bottom: 120px;;
+  padding-bottom: 120px;
 }
 
 .work-title {
@@ -200,6 +212,10 @@ ol {
   display: flex;
 }
 
+.work-title-list-img {
+  margin: 0 24px 0 0;
+}
+
 /* section our team */
 
 .team {
@@ -209,6 +225,7 @@ ol {
 .team-title {
   font-weight: 700;
   font-size: 36px;
+  text-align: center;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -217,10 +234,17 @@ ol {
   margin-bottom: 72px;
 }
 
+.team-list {
+  display: flex;
+}
+
 .team-list-card {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
+  margin: 0 24px 0 0;
+  margin-bottom: 120px;
+  text-align: center;
 }
 
 .team-list-card-title {
