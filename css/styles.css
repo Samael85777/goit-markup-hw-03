@@ -32,6 +32,10 @@ ol {
   list-style: none;
 }
 
+img {
+  display: block;
+}
+
 /* Header */
 
 .header {
@@ -122,14 +126,11 @@ ol {
   margin-bottom: 48px;
   text-align: center;
   width: 492px;
-  display: block;
 }
 
 /* Button */
 
 .button-section-hero {
-  display: block;
-  justify-content: center;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.18;
@@ -175,8 +176,6 @@ ol {
 }
 
 .advantages-list-item {
-  width: 264px;
-  margin: 0 24px 0 0;
 }
 
 .advantages-list-item-title {
@@ -213,7 +212,6 @@ ol {
 }
 
 .work-title-list-img {
-  margin: 0 24px 0 0;
 }
 
 /* section our team */
@@ -235,7 +233,6 @@ ol {
 }
 
 .team-list {
-  display: flex;
 }
 
 .team-list-card {
