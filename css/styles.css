@@ -198,7 +198,7 @@ img {
 }
 
 .advantages-list-item {
- max-width: 264px;
+  max-width: 264px;
 }
 
 .advantages-list-item-title {
@@ -238,7 +238,6 @@ img {
 }
 
 .work-title-list-img {
-   
 }
 
 /* section our team */
@@ -261,6 +260,7 @@ img {
 
 .team-list {
   display: flex;
+  justify-content: center;
   gap: 24px;
 }
 
@@ -268,9 +268,9 @@ img {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
-  margin: 0 24px 0 0;
   margin-bottom: 120px;
   text-align: center;
+  width: calc((100 - 72px) / 4);
 }
 
 .team-list-card-title {
@@ -289,23 +289,9 @@ img {
 
 /* second page (Portfolio) */
 
-.button-action {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.5;
-  align-items: center;
-  cursor: pointer;
-  letter-spacing: 0.04em;
-  color: var(--color-action);
-  background-color: var(--color-background-button);
-  border: 1px solid #e7e9fc;
-  border-radius: 4px;
-}
-
-.button-action:hover,
-.button-action:focus {
-  color: var(--color-third);
-  background-color: var(--color-action);
+.portfolio-section {
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 
 .gallery-title {
@@ -320,10 +306,45 @@ img {
   overflow: hidden;
 }
 
+.portfolio-navigation-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+
+.button-action {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  cursor: pointer;
+  letter-spacing: 0.04em;
+  color: var(--color-action);
+  background-color: var(--color-background-button);
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  padding: 8px 16px;
+}
+
+.button-action:hover,
+.button-action:focus {
+  color: var(--color-third);
+  background-color: var(--color-action);
+}
+
+.portfolio-images-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
 .portfolio-images-card {
   box-sizing: border-box;
   border: 0.5px solid #f4f4fd;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+  width: calc((100 - 144) / 9);
 }
 
 .portfolio-images-card-title {
@@ -332,6 +353,9 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-primary);
+  margin-top: 32px;
+  margin-bottom: 8px;
+  margin-left: 16px;
 }
 
 .portfolio-images-card-text {
@@ -339,6 +363,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-secondary);
+  margin-left: 16px;
+  margin-bottom: 32px;
 }
 
 /* footer */
