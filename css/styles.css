@@ -13,7 +13,6 @@ body {
   font-family: Roboto, sans-serif;
   color: var(--color-primary);
   background-color: var(--color-third);
-  width: 1440px;
 }
 
 p,
@@ -234,9 +233,12 @@ img {
 
 .work-title-list {
   display: flex;
+  justify-content: center;
+  gap: 24px;
 }
 
 .work-title-list-img {
+   
 }
 
 /* section our team */
@@ -258,6 +260,8 @@ img {
 }
 
 .team-list {
+  display: flex;
+  gap: 24px;
 }
 
 .team-list-card {
@@ -341,6 +345,12 @@ img {
 
 .footer {
   background-color: var(--color-background-section);
+  padding: 100px 0 100px 0;
+}
+
+.footer-container {
+  width: 264px;
+  margin-right: 156px;
 }
 
 .footer-logo {
@@ -368,4 +378,5 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-background-button);
+  margin-top: 16px;
 }
