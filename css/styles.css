@@ -13,6 +13,7 @@ body {
   font-family: Roboto, sans-serif;
   color: var(--color-primary);
   background-color: var(--color-third);
+  width: 1440px;
 }
 
 p,
@@ -94,7 +95,6 @@ img {
   letter-spacing: 0.02em;
   display: flex;
   gap: 40px;
-
 }
 
 .link-navigation {
@@ -115,7 +115,7 @@ img {
   letter-spacing: 0.02em;
   display: flex;
   gap: 40px;
-  }
+}
 
 .link-contacts {
   color: var(--color-secondary);
@@ -137,11 +137,12 @@ img {
   padding-bottom: 291px;
 }
 .section-hero-title {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 56px;
   line-height: 1.07;
   color: var(--color-third);
   letter-spacing: 0.02em;
+  margin: 0 auto;
   margin-bottom: 48px;
   text-align: center;
   width: 492px;
@@ -163,6 +164,8 @@ img {
   border-radius: 4px;
   color: var(--color-third);
   background-color: var(--color-action);
+  display: block;
+  margin: 0 auto;
 }
 
 .button-section-hero:hover,
@@ -192,12 +195,11 @@ img {
 
 .advantages-list {
   display: flex;
+  gap: 24px;
 }
 
 .advantages-list-item {
-  /* width: 264px; */
-  /* margin: 0 24px 0 0; */
-   padding: 0 24px 0 0;
+ max-width: 264px;
 }
 
 .advantages-list-item-title {
@@ -205,6 +207,7 @@ img {
   font-size: 20px;
   line-height: 1.2;
   color: var(--color-primary);
+  margin-bottom: 8px;
 }
 
 .advantages-list-item-text {
