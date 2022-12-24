@@ -357,6 +357,15 @@ img {
   border: 0.5px solid #f4f4fd;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
   width: calc((100 - 72) / 3);
+  background-color: var(--color-third);
+}
+
+.portfolio-img {
+  text-decoration: none;
+}
+
+.portfolio-box-card {
+  padding: 32px 16px;
 }
 
 .portfolio-images-card-title {
@@ -365,9 +374,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-primary);
-  margin-top: 32px;
   margin-bottom: 8px;
-  margin-left: 16px;
 }
 
 .portfolio-images-card-text {
@@ -375,8 +382,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-secondary);
-  margin-left: 16px;
-  margin-bottom: 32px;
 }
 
 /* footer */
