@@ -77,7 +77,7 @@ img {
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
   margin: 0 auto;
 }
 
@@ -337,7 +337,7 @@ img {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  column-gap: 24px;
+  column-gap: 21px;
   row-gap: 48px;
 }
 
@@ -345,7 +345,7 @@ img {
   box-sizing: border-box;
   border: 0.5px solid #f4f4fd;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
-  width: calc((100 - 144) / 9);
+  width: calc((100 - 72) / 3);
 }
 
 .portfolio-images-card-title {
