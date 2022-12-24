@@ -43,9 +43,6 @@ img {
   /* border-bottom: solid; */
   box-shadow: 0px 0px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 0px 0px rgba(46, 47, 66, 0.08);
-  padding-top: 24px;
-  padding-bottom: 24px;
-  /* display: flex; */
 }
 
 .container-navigation {
@@ -133,7 +130,7 @@ img {
 .section-hero {
   background-color: var(--color-primary);
   padding-top: 192px;
-  padding-bottom: 291px;
+  padding-bottom: 192px;
 }
 .section-hero-title {
   font-weight: 500;
