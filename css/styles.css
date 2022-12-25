@@ -242,6 +242,7 @@ img {
 }
 
 .work-title-list-img {
+  width: calc((100% - 48px) /3);
 }
 
 /* section our team */
@@ -273,7 +274,7 @@ img {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
   text-align: center;
-  width: calc((100 - 72px) / 4);
+  width: calc((100% - 72px) / 4);
   background-color: var(--color-third);
 }
 
@@ -345,17 +346,15 @@ img {
 
 .portfolio-images-list {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
-  column-gap: 21px;
+  column-gap: 24px;
   row-gap: 48px;
 }
 
 .portfolio-images-card {
   box-sizing: border-box;
-  border: 0.5px solid #f4f4fd;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
-  width: calc((100 - 72) / 3);
+  width: calc((100% - 48px) / 3);
   background-color: var(--color-third);
 }
 
@@ -365,6 +364,9 @@ img {
 
 .portfolio-box-card {
   padding: 32px 16px;
+  border-right: 0.5px solid #f4f4fd;
+  border-bottom: 0.5px solid #f4f4fd;
+  border-left: 0.5px solid #f4f4fd;
 }
 
 .portfolio-images-card-title {
